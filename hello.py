@@ -12,6 +12,7 @@ def print_text(text):
 def main():
     print_text("Hello, world!")
     print_text("Goodbye, world!")
+    print_text("Birthday")
 
 if __name__ == '__main__':
     main()
