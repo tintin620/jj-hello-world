@@ -3,16 +3,12 @@
 # This is the second best.
 
 
-def print_hello():
-    print("Hello World!")
+def print_text(text):
+    print(text)
 
-def print_bye():
-    print("Goodbye!")
-
-    
 def main():
-    print_hello()
-    print_bye()
+    print_text("Hello, world!")
+    print_text("Goodbye, world!")
 
 if __name__ == '__main__':
     main()
