@@ -8,7 +8,7 @@
 def print_text(text):
     print(text)
 
-# add documentation for main
+# The main function runs when our program starts
 def main():
     print_text("Hello, world!")
     print_text("Goodbye, world!")
